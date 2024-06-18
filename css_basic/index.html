@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Basic</title>
+    <style>
+      .navbar {
+        background-color: black;
+        color: aliceblue;
+        margin: 0;
+        display: block;
+        position: fixed;
+        width: 100%;
+      }
+      .navbar ul {
+        overflow: auto;
+        margin: 0;
+      }
+      .navbar li {
+        padding: 14px;
+        float: left;
+        list-style: none;
+      }
+      .navbar li a {
+        color: aliceblue;
+      }
+      .navbar li a:hover {
+        background-color: aqua;
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .navbar li a:visited {
+        color: yellow;
+      }
+      h2 {
+        border: 3px solid blue;
+        background-color: rgb(241, 198, 233);
+      }
+      #img {
+        border: 2px solid rgb(47, 0, 94);
+        padding: 10px;
+        height: 100px;
+        width: 200px;
+      }
+      p {
+        font: bold;
+        color: orangered;
+        background-color: rgb(252, 252, 134);
+      }
+      #div1 {
+        border: 4px solid black;
+        background-color: rgb(171, 225, 207);
+      }
+      .para {
+        border: 2px solid rgb(75, 10, 118);
+        background-color: rgb(193, 187, 187);
+      }
+      #para4 {
+        float: left;
+        width: 40%;
+        color: black;
+      }
+      #para2 {
+        clear: both;
+        color: chartreuse;
+      }
+      #para3 {
+        float: right;
+        color: blueviolet;
+        width: 40%;
+      }
+      #para1 {
+        clear: both;
+        color: rgb(25, 9, 78);
+        background-color: rgb(222, 118, 118);
+      }
+      .olist {
+        clear: both;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav id="navi" class="navbar">
+      <ul class="nav">
+        <li><a href="https://www.irctc.co.in/nget/train-search">Home</a></li>
+        <li><a href="https://www.hotels.irctc.co.in/">Hotels</a></li>
+        <li>
+          <a href="https://www.irctc.co.in/nget/profile/user-registration"
+            >Register</a
+          >
+        </li>
+        <li>
+          <a href="https://www.irctc.co.in/nget/enquiry/alerts">Alerts</a>
+        </li>
+      </ul>
+    </nav>
+    <h2 id="head" class="header">
+      This is the page for float display and position attributes
+    </h2>
+    <img
+      src="https://www.careerguide.com/career/wp-content/uploads/2023/08/1136065-irctc.jpg"
+      alt="No image available"
+      id="img"
+      class="images"
+    />
+    <div class="container" id="div1">
+      <p>
+        This is the irctc next gen website used to book the ticket for Indian
+        Railways
+      </p>
+      <p class="para" id="para1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
+        delectus eaque nobis facere, porro quisquam tenetur exercitationem
+        nostrum obcaecati voluptatem optio eos! Voluptas, quas animi!
+      </p>
+      <p class="para" id="para2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id
+        aspernatur eveniet sunt, dolores voluptas ducimus ipsa delectus tempore
+        earum cum veniam corrupti aperiam repellat?
+      </p>
+      <p class="para" id="para3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi natus
+        officia, praesentium, esse quisquam maiores nihil quis quidem, iusto
+        ratione quo! Corporis ab mollitia sed, numquam cumque veniam. Optio,
+        molestias nobis tenetur, debitis consequatur modi facere sunt, quos
+        deserunt quibusdam adipisci. Atque ducimus, iusto dolorem assumenda esse
+        laudantium ut labore.
+      </p>
+      <p class="para" id="para4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, debitis
+        vel? Molestiae hic ratione similique quidem, totam molestias, et, facere
+        eaque vero voluptatibus nam necessitatibus?
+      </p>
+    </div>
+    <ol class="olist" id="olist">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+    </ol>
+  </body>
+</html>
