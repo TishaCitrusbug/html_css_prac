@@ -1,0 +1,17 @@
+#anchor_div{
+    border: 3px solid black;
+    padding: 1%;
+    background-color: darkgray;
+    text-decoration: none;
+    position: fixed;
+}
+a{
+    color: rgb(112, 251, 247);
+}
+a:visited{
+    color: lawngreen;
+}
+a:hover{
+    background: #000;
+    color: aliceblue;
+}
