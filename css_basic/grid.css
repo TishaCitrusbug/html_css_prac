@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr 100px;
+    grid-template-rows: auto 100px 100px;
+    grid-template-areas:
+      "header header header"
+      "sidebar content content"
+      "footer footer footer";
+    gap: 10px;
+    height: 100vh;
+  }
+  .item-header {
+    grid-area: header;
+    background-color: lightcoral;
+  }
+  .item-sidebar {
+    grid-area: sidebar;
+    background-color: lightblue;
+  }
+  .item-content {
+    grid-area: content;
+    background-color: lightgreen;
+  }
+  .item-footer {
+    grid-area: footer;
+    background-color: lightpink;
+  }
