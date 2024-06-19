@@ -50,6 +50,6 @@
 
 /* Special item with align-self property */
 .item-special {
-    align-self: flex-end;
+    align-self: flex-center;
     /* Overrides the default alignment for this item */
 }
