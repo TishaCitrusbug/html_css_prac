@@ -1,0 +1,33 @@
+.bsgrid{
+    background-color: aliceblue;
+    border:10px solid black;
+       
+}
+.col{
+    border: 2px solid rgb(59, 0, 59);
+    margin: 1px;
+    padding: 1px;
+}
+.bscol{
+    border: 2px solid rgb(59, 0, 59);
+    /* margin: 1px;
+    padding: 1px; */
+    
+}
+.rc .bscol,.rc .col{
+    border:2px solid orange
+}
+/* .nestdiv .col{
+   background-color: aquamarine;
+   margin:0;
+   padding:0;
+   border: 1px solid black;
+} */
+
+.nestcol{
+    border: 1px solid black;
+    margin:1px;
+}
+.nestcol1{
+    border: 1px solid black;
+}
