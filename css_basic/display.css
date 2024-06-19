@@ -31,7 +31,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr;
     gap: 10px;
     background-color: lightgray;
 }
@@ -70,8 +70,8 @@
 
 .inline-flex-item {
     background-color: lightblue;
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .table {
@@ -86,7 +86,7 @@
 
 .table-cell {
     display: table-cell;
-    padding: 10px;
+    padding: 30px;
     background-color: lightgoldenrodyellow;
     border: 1px solid #ccc;
 }
@@ -102,7 +102,7 @@
 
 .table-cell {
     display: table-cell;
-    padding: 10px;
+    padding: 50px;
     background-color: lightgoldenrodyellow;
     border: 1px solid #ccc;
 }

@@ -1,0 +1,55 @@
+/* Container styles */
+.container {
+    display: flex;
+    /* Defines a flex container */
+    flex-direction: row;
+    /* Sets the direction of the flex items */
+    flex-wrap: wrap;
+    /* Allows flex items to wrap onto multiple lines */
+    justify-content: space-between;
+    /* Distributes space between items */
+    align-items: center;
+    /* Aligns items along the cross axis */
+    align-content: stretch;
+    /* Aligns lines of items along the cross axis */
+    height: 200px;
+    /* Sets a fixed height for the container */
+    border: 2px solid #000;
+    /* Adds a border to the container */
+}
+
+/* Item styles */
+.item {
+    background-color: lightcoral;
+    /* Sets the background color */
+    flex: 1 1 100px;
+    /* Defines flex-grow, flex-shrink, and flex-basis */
+    margin: 10px;
+    /* Adds margin around items */
+    text-align: center;
+    /* Centers text inside items */
+    padding: 10px;
+    /* Adds padding inside items */
+}
+
+/* Order property examples */
+.item-1 {
+    order: 2;
+    /* Changes the order of the item */
+}
+
+.item-2 {
+    order: 1;
+    /* Changes the order of the item */
+}
+
+.item-3 {
+    order: 3;
+    /* Changes the order of the item */
+}
+
+/* Special item with align-self property */
+.item-special {
+    align-self: flex-end;
+    /* Overrides the default alignment for this item */
+}
