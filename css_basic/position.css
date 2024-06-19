@@ -1,0 +1,62 @@
+.static {
+    position: static;
+    background-color: lightblue;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+}
+
+.relative-parent {
+    position: relative;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+}
+
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+}
+
+.parent {
+    position: relative;
+}
+
+.inherit {
+    position: inherit;
+    top: 10px;
+    left: 10px;
+    background-color: lightcyan;
+}
+
+.initial {
+    position: initial;
+    background-color: lightgray;
+}
+
+.parent {
+    position: relative;
+}
+
+.unset {
+    position: unset;
+    background-color: lightseagreen;
+}
