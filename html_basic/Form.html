@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="LinkElements.html">
+        <fieldset id="person_info", class="person">
+            <legend><h2>person_info:</h2></legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"  placeholder="Enter name :- " required>
+            <br>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter email: -" required>
+            <br>
+
+            <label for="password">Number:</label>
+            <input type="text" id="number" name="number" placeholder="enter number: -" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="enter password: -" required>
+            <br>
+        </fieldset>
+        <fieldset id="gender", class="person">
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" checked>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" checked>
+          <label for="female">Female</label></div><br><br>
+            <div>
+                Enter your birthdate <input type="date" name="Date" id="date">
+            </div><br>
+        </fieldset>
+        <fieldset id="city", class="person">
+            <div>
+                Select your City: <select>
+                    <option value="Adi">Ahmedabad</option>
+                    <option value="Mum">Mumbai</option>
+                    <option value="Dli">Delhi</option>
+                    <option value="Jnd">Junagadh</option>
+                    <option value="Rjt">Rajkot</option>
+                    <option value="Chn">Chennai</option>
+                    <option value="Brc">Vadodara</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Btd">Botad</option>
+                </select>
+            </div><br>
+
+            <div>Enter the description:<br> <textarea></textarea></div><br>
+        </fieldset><br>
+        <fieldset>
+            <div class="container mt-5">
+                <h2>Checkbox Example</h2>
+                <form>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                    <label class="form-check-label" for="defaultCheck1">
+                      Default checked checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Unchecked checkbox
+                    </label>
+                  </div>
+                </form>
+              </div>
+        </fieldset>
+        <div align="center"> <input type="submit" value="Submit"></div>
+        <br>
+        <br>
+        <div align="center"><input type="reset" value="Reset"></div>
+        <div></div>
+    </form>
+</body>
+
+</html>

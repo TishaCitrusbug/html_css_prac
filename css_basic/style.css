@@ -1,0 +1,108 @@
+.block {
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightcoral;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    margin-right: 10px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightgray;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: lightgray;
+}
+
+.grid-item {
+    background-color: lightseagreen;
+    padding: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #ccc;
+}
+
+.inline-flex-container {
+    display: inline-flex;
+    background-color: lightgray;
+}
+
+.inline-flex-item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #ccc;
+}
+
+.inline-table {
+    display: inline-table;
+    background-color: lightgray;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #ccc;
+}
