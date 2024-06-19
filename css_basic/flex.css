@@ -8,7 +8,7 @@
     /* Allows flex items to wrap onto multiple lines */
     justify-content: space-between;
     /* Distributes space between items */
-    align-items: center;
+    /* align-items: center; */
     /* Aligns items along the cross axis */
     align-content: space-around;
     /* Aligns lines of items along the cross axis */
@@ -22,11 +22,11 @@
 .item {
     background-color: lightcoral;
     /* Sets the background color */
-    flex: 1 1 100px;
+    flex: 0 1 100px;
     /* Defines flex-grow, flex-shrink, and flex-basis */
     margin: 10px;
     /* Adds margin around items */
-    text-align: center;
+    /* text-align: center; */
     /* Centers text inside items */
     padding: 10px;
     /* Adds padding inside items */
@@ -50,6 +50,6 @@
 
 /* Special item with align-self property */
 .item-special {
-    align-self: flex-center;
+    /* align-self: flex-center; */
     /* Overrides the default alignment for this item */
 }
