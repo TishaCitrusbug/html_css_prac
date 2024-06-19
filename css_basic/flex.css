@@ -4,13 +4,13 @@
     /* Defines a flex container */
     flex-direction: row;
     /* Sets the direction of the flex items */
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     /* Allows flex items to wrap onto multiple lines */
     justify-content: space-between;
     /* Distributes space between items */
     align-items: center;
     /* Aligns items along the cross axis */
-    align-content: stretch;
+    align-content: space-around;
     /* Aligns lines of items along the cross axis */
     height: 200px;
     /* Sets a fixed height for the container */
