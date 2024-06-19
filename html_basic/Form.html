@@ -11,17 +11,28 @@
     <form action="LinkElements.html">
         <fieldset id="person_info", class="person">
             <legend><h2>person_info:</h2></legend>
-            <div>Enter your Name: <input type="text" placeholder="Enter your Name :- "  required></div><br>
-            <div>Enter your Number: <input type="text" placeholder="Enter your number :- "  required></div><br>
-            <div>Enter your Email: <input type="email" placeholder="exp. : abc@gmail.com :- " required></div><br>
-            <div>Enter the Password: <input type="password" placeholder="Enter Password:- "  required></div><br>
-            <div>Enter Confrim Password: <input type="password" placeholder="Enter your confirm Password:- "  required></div><br>
-            <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"  placeholder="Enter name :- " required>
+            <br>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter email: -" required>
+            <br>
+
+            <label for="password">Number:</label>
+            <input type="text" id="number" name="number" placeholder="enter number: -" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="enter password: -" required>
+            <br>
         </fieldset>
         <fieldset id="gender", class="person">
-            Gender :Male<input type="radio" name="Gender" checked>
-            Female<input type="radio" name="Gender">
-            Others<input type="radio" name="Gender"></div><br><br>
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" checked>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" checked>
+          <label for="female">Female</label></div><br><br>
             <div>
                 Enter your birthdate <input type="date" name="Date" id="date">
             </div><br>
