@@ -1,0 +1,40 @@
+body {
+    font-size: 16px;
+    /* Base font size */
+}
+
+.box-px {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.box-em {
+    width: 10em;
+    height: 10em;
+    background-color: lightgreen;
+}
+
+.box-rem {
+    width: 10rem;
+    height: 10rem;
+    background-color: lightcoral;
+}
+
+.box-percent {
+    width: 50%;
+    height: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.box-vw {
+    width: 50vw;
+    height: 50vw;
+    background-color: lightpink;
+}
+
+.box-vh {
+    width: 50vh;
+    height: 50vh;
+    background-color: lightpink;
+}
