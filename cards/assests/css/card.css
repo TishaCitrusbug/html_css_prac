@@ -1,0 +1,95 @@
+.cardcont{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid black;
+    background-color: aliceblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    height: max-content;
+}
+.card1{
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid rgb(53, 3, 53);
+    background-color: aqua;
+}
+.card2{
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid rgb(10, 0, 69);
+    background-color: rgb(255, 185, 185);
+}
+.card3{
+    height: max-content;
+    background-color: rgb(247, 255, 178);
+    border:5px solid rgb(38, 203, 209);
+    margin: 15px;
+    padding: 15px;
+}
+.card4{
+    height: max-content;
+    background-color: rgb(198, 173, 210);
+    border:5px solid rgb(44, 2, 63);
+    margin: 15px;
+    padding: 15px;
+}
+.cardiv2{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(167, 254, 140);
+    width: 100%;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* align-items: baseline; */
+}
+.cardiv3{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(47, 0, 33);
+    background-color: rgb(140, 254, 244);
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+}
+#cd3{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid rgb(170, 0, 255);
+    background-color: rgb(255, 253, 206);
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+}
+.cardiv4{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    border: 5px solid rgb(255, 0, 0);
+    background-color: rgb(140, 254, 244);
+    flex-direction: row-reverse;
+    width: 40%;
+    /* flex-wrap: wrap; */
+    column-gap: 30px;
+}
+.imgdiv{
+   
+   width: 90%;
+   height: 60%;
+}
+.cardiv5{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(47, 0, 33);
+    background-color: rgb(140, 254, 244);
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+}
