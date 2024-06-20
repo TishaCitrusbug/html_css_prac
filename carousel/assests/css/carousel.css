@@ -1,0 +1,10 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+}
