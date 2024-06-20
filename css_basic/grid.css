@@ -7,7 +7,7 @@
       "sidebar content content"
       "footer footer footer";
     gap: 10px;
-    height: 100vh;
+    height: 50vh;
   }
   .item-header {
     grid-area: header;
