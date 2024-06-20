@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Utilities</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Bootstrap Responsive Utilities</h2>
+        
+        <!-- Responsive Display Classes -->
+        <div class="d-none d-sm-block">
+            This text is hidden on extra small screens (xs) but visible on small (sm) and larger screens.
+        </div>
+        <div class="d-block d-sm-none">
+            This text is visible only on extra small screens (xs).
+        </div>
+
+        <!-- Responsive Flex Classes -->
+        <div class="d-flex flex-column flex-sm-row mt-4">
+            <div class="p-2 bg-primary text-white">Flex item 1</div>
+            <div class="p-2 bg-secondary text-white">Flex item 2</div>
+            <div class="p-2 bg-success text-white">Flex item 3</div>
+        </div>
+
+        <!-- Responsive Margin and Padding -->
+        <div class="mt-4 p-3 border">
+            <div class="p-2 p-sm-3 p-md-4 p-lg-5 bg-info text-white">
+                Responsive padding example
+            </div>
+        </div>
+
+        <!-- Responsive Float Classes -->
+        <div class="clearfix mt-4">
+            <img src="https://via.placeholder.com/150" class="float-left float-sm-right" alt="Responsive Float">
+            <p>This image floats to the left on extra small screens (xs) and to the right on small (sm) and larger screens.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
