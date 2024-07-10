@@ -11,13 +11,14 @@ body, html {
     width: 50%;
     height: 100vh;
     box-sizing: border-box;
-    padding: 20px;
+    /* padding: 50px; */
+    gap: 50px;
 }
 
 .column {
-    flex: calc(33.33% - 20px); /* 33.33% width minus 20px for margin */
+    flex: calc(33.33% - 60px); /* 33.33% width minus 20px for margin */
     margin: 10px;
-    height: calc(50% - 20px); /* 50% height minus 20px for margin */
+    /* height: calc(50% - 20px); 50% height minus 20px for margin */
     background-color: lightblue;
     display: flex;
     align-items: center;
